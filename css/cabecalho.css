@@ -1,0 +1,112 @@
+.cabecalho {
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding-top: 2.25rem;
+    text-align: center;
+    width: 100vw;
+
+}
+
+.cabecalho__logo {
+    width: 14rem;
+    margin: 0 auto;
+}
+
+.cabecalho__titulo {
+    color: var(--branco);
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2rem;
+}
+
+
+.cabecalho__lista {
+    color: var(--branco);
+    padding-top: 1.25rem;
+}
+
+.cabecalho__item {
+    font-family: var(--fonte-textos);
+    padding-bottom: 0.5rem;
+}
+
+.cabecalho__texto--conteudo {
+    border: 2px solid var(--branco);
+    box-sizing: border-box;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    width: 90vw;
+}
+
+.cabecalho__texto {
+    color: var(--branco);
+    font-family: var(--fonte-subtitulos);
+    font-size: 4rem;
+    padding: auto 1.25rem;
+    padding-top: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        background-image: url(../images/desktop/image-hero.jpg);
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .cabecalho__caixa {
+        display: flex;
+        justify-content: space-between; 
+        padding: 0 2.5rem;       
+    }
+
+    .cabecalho__logo {
+        width: 12rem;
+        height: 3rem;
+        margin: 0;
+    }
+
+    .cabecalho__lista {
+        display: flex;
+    }
+
+    .cabecalho__item {
+        padding-right: 1.5rem;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .cabecalho {
+        height: 550px;
+    }
+
+    .cabecalho__caixa {
+        margin: 0 340px;
+    }
+    
+    .cabecalho__logo {
+        width: 14rem;
+    }
+
+    .cabecalho__item {
+        font-size: 1.5rem;
+    }
+
+    .cabecalho__texto--conteudo {
+        height: auto;
+        margin: auto;
+        text-align: left;
+        width: auto;
+    }
+
+    .cabecalho__texto {
+        font-size: 6rem;
+        padding: 1.25rem;
+    }
+}

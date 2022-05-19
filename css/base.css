@@ -1,0 +1,13 @@
+:root {
+    --branco: #fff;
+    --cinza: rgb(126, 126, 126);
+
+    --fonte-textos:'Hind Siliguri', sans-serif;
+    --fonte-subtitulos: 'Barlow Condensed', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+}
+
