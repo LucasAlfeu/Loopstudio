@@ -14,11 +14,11 @@ Um site de empresa expecializada em óculos de realidade virtual .Projeto de est
 
 ### Tablet
 
-![Tablet]()
+![Tablet](https://github.com/LucasAlfeu/Loopstudio/blob/main/images/layout/tablet.png)
 
 ### Mobile
 
-![Mobile]()
+![Mobile](https://github.com/LucasAlfeu/Loopstudio/blob/main/images/layout/mobile.png)
 
 # Tecnologia utilizadas
 
