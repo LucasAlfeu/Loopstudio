@@ -6,6 +6,8 @@
 
 Um site de empresa expecializada em óculos de realidade virtual .Projeto de estudos de uma landing page totalmente estática focado na construção de uma página inteiramente com HTML e CSS, além de também de ter o layout responsivos para telas mobile e de tablets.
 
+Desafio inspirado em [FrontEnd Mentor](https://www.frontendmentor.io/)
+
 ## Layout
 
 ### Web
